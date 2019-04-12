@@ -1,6 +1,7 @@
-import "../style/styles.css";
 
-// document.getElementById("app").innerHTML = `
+
+//  import "../style/styles.css";
+        //document.getElementById("app").innerHTML = `
 // <h1>Hello Vanilla!</h1>
 // <div>
 //   We use Parcel to bundle this sandbox, you can find more info about Parcel
