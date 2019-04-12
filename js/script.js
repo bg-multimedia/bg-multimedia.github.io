@@ -1,15 +1,9 @@
- //BurguerButton
-  var burguerButton = document.getElementById('burguer-button');
-  
-  burguerButton.addEventListener('touchstart', function(){
-    var burguerMenu = document.getElementById('burguer-menu');
-    burguerMenu.classList.toggle('active');
-    burguerButton.classList.toggle('sliders');
-    burguerButton.classList.toggle('close');
-    burguerButton.classList.toggle('active-icon');
-  });
-  
-  //Over Sections
-   // function showText(header){
-   //  header.parentElement.getElementsByTagName('p')[0].classList.toggle('open');
-   // };
+import "./style/styles.css";
+
+// document.getElementById("app").innerHTML = `
+// <h1>Hello Vanilla!</h1>
+// <div>
+//   We use Parcel to bundle this sandbox, you can find more info about Parcel
+//   <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
+// </div>
+// `;
