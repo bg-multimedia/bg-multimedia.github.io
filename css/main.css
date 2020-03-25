@@ -2361,7 +2361,67 @@ html.no-csstransitions .home-content__main {
     }
 }
 
+/* ===================================================================
+ * # videos
+ *
+ * ------------------------------------------------------------------- */
+.s-videos {
+    padding-top: 16.2rem;
+    padding-bottom: 9rem;
+    background-color: #000000;
+    color: #38a8b5;
+    position: relative;
+}
 
+.s-videos .section-header.has-bottom-sep::before {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.videos-desc {
+    font-size: 2.4rem;
+    line-height: 1.75;
+    text-align: center;
+    max-width: 1024px;
+}
+
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * videos
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+    .videos-desc {
+        font-size: 2.2rem;
+        max-width: 940px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .videos-desc {
+        font-size: 2rem;
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .videos__line {
+        right: 5.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .s-videos {
+        padding-top: 12rem;
+    }
+    .videos-desc {
+        font-size: 1.9rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .videos-desc {
+        font-size: 1.8rem;
+    }
+}
 
 /* ===================================================================
  * # services
