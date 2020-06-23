@@ -64,18 +64,8 @@ html {
 }
 
 
-
-@media only screen and (max-width: 399px) {
-    .video{
-        margin-bottom:30px; 
-        padding:56.25% 0 0 0;
-        position:relative;
-    }
-    
-}
-
-@media only screen and (min-width: 400px) {
-    .video{
+@media only screen and (min-width: 401px) {
+    .vimdeo{
         margin-bottom:80px; 
         padding:40% 0 0 0;
         position:relative;
@@ -86,8 +76,12 @@ html {
     html {
         font-size: 9.411764705882353px;
     }
+    .vimdeo{
+        margin-bottom:30px; 
+        padding:56.25% 0 0 0;
+        position:relative;
+    }
 }
-
 html, body {
     height: 100%;
 }
@@ -2385,8 +2379,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-videos {
-    padding-top: 16.2rem;
-    padding-bottom: 9rem;
+    padding-top: 12rem;
+    padding-bottom: 0;
     background-color: #000000;
     color: #38a8b5;
     position: relative;
