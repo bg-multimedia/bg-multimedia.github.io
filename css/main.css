@@ -63,6 +63,25 @@ html {
     font-size: 10px;
 }
 
+
+
+@media only screen and (max-width: 399px) {
+    .video{
+        margin-bottom:30px; 
+        padding:56.25% 0 0 0;
+        position:relative;
+    }
+    
+}
+
+@media only screen and (min-width: 400px) {
+    .video{
+        margin-bottom:80px; 
+        padding:40% 0 0 0;
+        position:relative;
+    }   
+}
+
 @media only screen and (max-width: 400px) {
     html {
         font-size: 9.411764705882353px;
